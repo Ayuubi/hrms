@@ -104,6 +104,7 @@
    "label": "Base & Variable"
   },
   {
+   "allow_on_submit": 1,
    "fetch_from": "grade.default_base_pay",
    "fetch_if_empty": 1,
    "fieldname": "base",
@@ -209,7 +210,7 @@
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2023-01-10 12:00:57.942233",
+ "modified": "2026-03-14 10:19:23.135535",
  "modified_by": "Administrator",
  "module": "Payroll",
  "name": "Salary Structure Assignment",
@@ -229,8 +230,6 @@
    "write": 1
   },
   {
-   "amend": 1,
-   "cancel": 1,
    "create": 1,
    "delete": 1,
    "email": 1,
@@ -238,24 +237,12 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "HR Manager",
+   "role": "Finance",
    "share": 1,
-   "submit": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "HR User",
-   "share": 1,
-   "submit": 1,
    "write": 1
   }
  ],
+ "read_only": 1,
  "search_fields": "employee_name, salary_structure",
  "sort_field": "modified",
  "sort_order": "DESC",

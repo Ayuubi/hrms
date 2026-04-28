@@ -138,6 +138,7 @@
    "precision": "2"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "earnings",
    "fieldtype": "Table",
    "label": "Earnings",
@@ -234,7 +235,7 @@
  "idx": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-01-05 13:39:47.519380",
+ "modified": "2026-03-14 09:32:16.329297",
  "modified_by": "Administrator",
  "module": "Payroll",
  "name": "Salary Structure",

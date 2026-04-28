@@ -329,7 +329,7 @@
  "icon": "fa fa-cog",
  "is_submittable": 1,
  "links": [],
- "modified": "2023-01-05 17:07:00.372983",
+ "modified": "2026-01-21 22:29:00.064892",
  "modified_by": "Administrator",
  "module": "Payroll",
  "name": "Payroll Entry",
@@ -342,7 +342,7 @@
    "delete": 1,
    "read": 1,
    "report": 1,
-   "role": "HR Manager",
+   "role": "Finance",
    "share": 1,
    "submit": 1,
    "write": 1
